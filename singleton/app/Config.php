@@ -21,6 +21,8 @@ class Config {
     }
 
     public function getValue($key){
-        if ($key(self::$settings))
+        if ($key(self::$settings)){
+            return self::$settings;
+        }
     }
 }
