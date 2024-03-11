@@ -6,7 +6,7 @@ use App\Entity\Bicycle;
 use App\Entity\Car;
 use App\Entity\Truck;
 
-class TransportationFactory {
+class Transport {
     public static function createVehicle($distance, $weight) {
         if ($distance < 20) {
             return new Bicycle(0.05, 'muscle');
