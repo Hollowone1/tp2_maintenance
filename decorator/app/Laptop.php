@@ -13,4 +13,13 @@ class Laptop implements Computer {
     {
         return "A laptop computer";
     }
+
+    public function AddGraphicCard(): string
+    {
+        return "nvidia geforce 1080tx";
+    }
+    public function AddOledScreen(): string
+    {
+        return "oled screen 16/9";
+    }
 }   
